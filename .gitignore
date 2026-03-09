@@ -37,4 +37,3 @@ node_modules/
 
 # GitHub Actions (keep these)
 !.github/
-themes/ezhil
