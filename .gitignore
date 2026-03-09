@@ -34,4 +34,7 @@ node_modules/
 
 # Theme git (since it's a submodule or cloned repo)
 /themes/ezhil/.git
+
+# GitHub Actions (keep these)
+!.github/
 themes/ezhil
