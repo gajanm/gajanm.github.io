@@ -1,0 +1,77 @@
+/* Align social navigation to the right */
+.header .site-description {
+    justify-content: flex-end;
+}
+
+.header .site-description nav {
+    margin-left: auto;
+}
+
+/* Add spacing between paragraphs */
+.section p {
+    margin-bottom: 1.5em;
+}
+
+.section p:last-child {
+    margin-bottom: 0;
+}
+
+/* Add spacing for text blocks in section (for content without p tags) */
+.section > * {
+    margin-bottom: 1.5em;
+}
+
+.section > *first-child {
+    margin-top: -0.5em;
+}
+
+.section > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Style h2 headings in markdown content with different font and larger size */
+.markdown h2,
+.post h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #333;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 0.5em;
+}
+
+/* Style h3 headings (like "Engineering", "Society") */
+.markdown h3,
+.post h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #333;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.markdown h3:first-of-type,
+.post h3:first-of-type {
+    margin-top: 0;
+}
+
+/* Style bulleted lists for projects */
+.markdown ul li,
+.post ul li {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+/* Style bold/italic project titles in lists */
+.markdown ul li strong em,
+.post ul li strong em,
+.markdown ul li em strong,
+.post ul li em strong {
+    font-weight: 600;
+    font-style: italic;
+    color: #333;
+}
+
