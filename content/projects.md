@@ -15,7 +15,7 @@ type: "page"
 
 * ***Automated Sprinkler System:*** Led a project engineering an automated sprinkler system employing Arduino, Golang, Moisture Sensors, and Pumps/Tubes to reduce water usage by 70% at local temple's garden.
 
-Feel free to see more of my projects [here](https://github.com/gajanm)
+Feel free to see more of my projects [here](https://github.com/gajanm).
 
 
 ### Society
